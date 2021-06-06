@@ -1,5 +1,5 @@
 # Website Citi
-  Create one WebSite
+  Create a WebSite
   
 ## Prototype
   link: https://www.figma.com/file/bGSznxloNB2dNcr9QQYK4N/Mockup-PTA?node-id=0%3A1
@@ -13,7 +13,7 @@
 
 
 
-## Develop
+## Developer
 
 <table>
   <tr>
