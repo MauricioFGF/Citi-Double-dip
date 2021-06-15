@@ -11,42 +11,47 @@
     <title>Double dip</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <section class="logo"><img src="img/logo.png" alt=""></section>
+        <section class="buttons">
+            <button onclick="colors(this)" id="blue"> <img src="img/ice-cream1.png" alt=""></button>
+            <button onclick="colors(this)" id="pink"><img src="img/popsicle1.png" alt=""></button>
+            <button onclick="colors(this)" id="orange"><img src="img/ice-cream2.png" alt=""></button>
+        </section>
         <section class="search">
             <div class="search-div">
                 <input type="text" id="txt-search" placeholder="Procure seu sorvete"/>
-                <img src="img/lupa.png" alt="">
+                <img src="img/lupa.png" id="img-search" onclick="search()" alt="">
             </div>
         </section>
     </header>
     <main>
         <div class="ice-creams">
-            <div class="big-option">
+            <div class="big-option" id="tablito">
                 <img src="img/tablito.png" alt="">
                 <h1>Picolé Tablito</h1>
                 <p>Picolé de chocolate tradicional  e branco 106g (R$ 0,05/g)</p>
                 <h1>R$ 5,00</h1>
             </div>
             <div class="option">
-                <div class="small-option"><img src="img/brigadeiro.png" alt=""></div>
-                <div class="small-option2"> <img src="img/unil.png" alt=""></div>
+                <div class="small-option" id="brigadeiro"><img src="img/brigadeiro.png" alt=""></div>
+                <div class="small-option2" id="unil"> <img src="img/unil.png" alt=""></div>
             </div>
         </div>
-        <div class="ice-creams reverse">
-            <div class="big-option">
+        <div class="ice-creams">
+            <div class="big-option" id="chica">
                 <img src="img/chica.png" alt="">
                 <h1>Chica Bon</h1>
                 <p>Picolé de chocolate tradicional 106g (R$ 0,05/g)</p>
                 <h1>R$ 5,00</h1>
             </div>
             <div class="option">
-                <div class="small-option"><img src="img/morango.png" alt=""></div>
-                <div class="small-option2"><img src="img/minions.png" alt=""></div>
+                <div class="small-option" id="morango"><img src="img/morango.png" alt=""></div>
+                <div class="small-option2" id="minions"><img src="img/minions.png" alt=""></div>
             </div>
         </div>
     </main>
-    <footer>
+    <footer id="footer">
         <section class="footer left"><img src="img/logo2.png" alt=""></section>
         <section class="footer center"><p>Made with &lt;/&gt; and ❤ by Mauricio <p></section>
         <section class="footer right">
@@ -64,7 +69,7 @@
             </div>
         </section>
     </footer>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
 
